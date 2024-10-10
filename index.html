@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure Video Player</title>
+  <style>
+    /* ... (same CSS as before) */
+  </style>
+</head>
+<body>
+  <div id="video-container">
+    <iframe id="video" src="https://player.vdocipher.com/v2/?otp=20160313versASE3235Pc1wfIiagjCuYezEHmlIjMTC5iWtq4cGwqOGkDBWreB1P&playbackInfo=eyJ2aWRlb0lkIjoiNmYxZDkzMDJhNDM2NDRjODg5OGVlMjlhNmJiMzE3MTQifQ==" frameborder="0" allowfullscreen allow="encrypted-media"></iframe>
+  </div>
+  <div id="controls">
+    <i id="play-pause" class="fas fa-play"></i>
+    <div id="resolution">
+      Resolution:
+      <select>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+    <div id="playback-speed">
+      Speed:
+      <select>
+        <option value="0.5">0.5x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+      </select>
+    </div>
+    <i id="backward" class="fas fa-backward"></i>
+    <i id="forward" class="fas fa-forward"></i>
+  </div>
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+  <script>
+    /* ... (same JavaScript as before) */
+  </script>
+</body>
+</html>
